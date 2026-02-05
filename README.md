@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Labour Costing Calculator  
+Hosted via GitHub Pages (Vite + React)
 
-This contains everything you need to run your app locally.
+**Live site:**  
+https://SwinburneLabourCalculator.github.io/
 
-View your app in AI Studio: https://ai.studio/apps/drive/1v5sPYHhu8lCBF0T6BvrXWIwlpAy-mGQI
+**Repository:**  
+https://github.com/SwinburneLabourCalculator/SwinburneLabourCalculator.github.io
 
-## Run Locally
+This repository hosts the **Labour Costing Calculator**, a React + Vite web application deployed automatically using **GitHub Actions → GitHub Pages**.  
+Any commit pushed to the **main** branch triggers a rebuild and redeploy.
 
-**Prerequisites:**  Node.js
+---
 
+## 🚀 How the site is deployed
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The site is deployed using:
+
+- **Vite** for building the application  
+- **GitHub Actions** to run the build  
+- **GitHub Pages** to host the generated `/dist` output  
+
+All deployment steps run automatically — no manual steps needed after pushing code.
+
+If the build succeeds, Pages is updated automatically.  
+If the build fails, the site keeps the previous working version.
+
+---
+
+## 🛠️ How to update the code (two ways)
+
+### **Option A — Edit directly on GitHub (quick edits)**  
+1. Open the repo  
+2. Browse to a file (e.g., `components/...`, `App.tsx`, `index.html`)  
+3. Click the **pencil icon**  
+4. Make your changes  
+5. Add a brief commit message  
+6. Click **Commit directly to main**
+
+GitHub Actions will automatically run → rebuild → redeploy.
+
+---
+
+### **Option B — Edit locally and push (for larger changes)**  
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/SwinburneLabourCalculator/SwinburneLabourCalculator.github.io
