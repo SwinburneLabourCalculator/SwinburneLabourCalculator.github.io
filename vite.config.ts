@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => {
     // Must match the repository name, with leading and trailing slashes.
     // Your final site URL is:
     // https://swinburnelabourcalculator.github.io/labour-costing-calculator/
-    base: '/labour-costing-calculator/',
+    base: '/',
 
     server: {
       port: 3000,
